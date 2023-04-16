@@ -1,0 +1,62 @@
+---
+title: "Siyasette Kadınların Yeri ve Cinsiyet Eşitsizliği"
+author: 
+  - Ayşenur Çakır[^1]
+bibliography: ../bibliography/biblio.bib
+csl: ../csl/apa-tr.csl
+header-includes:
+  - \usepackage{polyglossia}
+  - \setmainlanguage{turkish}
+  - \usepackage{booktabs}
+  - \usepackage{caption} 
+  - \captionsetup[table]{skip=10pt}
+output:
+  bookdown::pdf_document2:
+    fig_caption: yes
+    fig_height: 3
+    fig_width: 4
+    keep_tex: no
+    latex_engine: xelatex
+    number_sections: yes
+    toc: no
+geometry: margin=1in
+link-citations: yes
+urlcolor: blue
+fontsize: 12pt
+biblio-style: apalike
+---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(cache = FALSE, echo = TRUE, message = FALSE, warning = FALSE)
+```
+
+<!-- ======================================================================= -->
+<!-- ============================== NOTLAR ================================= -->
+<!-- ======================================================================= -->
+[^1]: 21080469, [Github Repo](https://github.com/cakiraysenur/arasinav.git)
+
+# Giriş
+Kadınların siyasetteki yeri ve cinsiyet eşitsizliği konusu hem ülkemizde hem de uluslararası alanda sıkça tartışma konusu olan bir sorundur. Kadınların siyasette yeterince temsil edilmemesi ayrımcılığa ve eşitsizliğe sebep olmaktadır. Bu da demokrasinin yetersiz işleyişine yol açmaktadır.
+
+Birçok ülkede kadınların siyasi hayata katılımı oldukça kısıtlıdır. Türkiye'de meclisteki kadın milletvekili oranlarına rağmen siyasi mevkilere gelme oranları erkeklere kıyasla çok düşüktür. Kadınları siyasi arenada az görme sebeplerimiz ekonomik, sosyal ve kültürel engellerdir.
+
+Kültürel engellerin büyük bir kısmı gelenekselliğe dayanmaktadır. Geleneksel kültürel yapıya göre erkek çalışırken kadın daha çok evine, ailesine bağlıdır. Sosyal engeller de kadının eve yönelik yükümlülüklerinden doğar. Bu yükümlülükler de kadının siyasi hayatı açısından zorluklar yaratır.
+
+Kadınlar siyasi faaliyetlerde bulunurken cinsiyet ayrımcılığına maruz kalabiliyorlar. Siyasi arenada karşılaşılan cinsiyetçi dil, tehdit ve davranışlar; kadınların siyasi faaliyetlerden uzak kalmasına ve baskılanmasına sebep oluyor. Toplumda hala kadınların liderlik yeteneklerine şüpheyle bakılıyor. Bu da kadınların siyasi alanlarda üst düzey pozisyonlara gelmesine engel olabiliyor.
+
+## Çalışmanın Amacı
+Kadınların siyasette daha fazla yer almasını sağlamak için hem kadınlar hem de erkekler arasında farkındalık çalışmaları yapılmalı, eğitim verilmelidir. Bu çalışmaların amacı kadınların siyasi faaliyetlerde daha kolay rol üstlenmesini sağlamak ve toplumda kadınların liderlik yeteneklerine, yönetme gücüne karşı olan önyargıları yıkmaktır. Siyasette kadınlar konulu veri setinde de ülkelere göre kadınların siyasete katılım oranlarını görüp, yüksek oranlı ülkelerle düşükleri karşılaştırıp, aradaki farkların ne olduğu belirlenip eşitsizliğin giderilmesi için bir başlangıç noktası oluşturulabilir.
+
+## Literatür 
+Siyasi katılım, "hükümet yapısını, hükümet yetkililerinin seçimini veya hükümet politikalarını etkilemeye çalışan vatandaşların faaliyetleri" olarak tanımlanabilir [@conway2001women]. Siyaseti geleneksel seçim, parti veya kurumsal davranışlarla sınırlı tutmak; kadınların siyasi davranışlarını tam olarak anlamamızı engelleyebilir. Bu nedenle siyasetin daha geniş bir tanımı, kadınların siyasi davranışlarının daha kapsamlı bir şekilde incelenmesine olanak tanıyabilir [@ford2018women].
+
+Kadınlar toplumsal bazı normlar yüzünden birçok alanda olduğu gibi siyasette de hak ettikleri noktaya gelebilmek için erkeklere kıyasla çok daha fazla çaba göstermek durumunda kalabiliyorlar. Örneğin erkeklerin parti görevinden doğrudan parlamentoya terfi etme olasılıkları kadınlara kıyasla çok daha yüksektir. Bu da parlamentoya giden yolların kadınlar için erkeklere kıyasla çok daha zorlu olduğu sonucunu verir [@luhiste2016pathways].
+
+Toplumsal cinsiyet eşitliği, temsili demokrasi tartışmalarındaki önemli konulardan biridir. Kadınların siyasi karar alma süreçlerinde yer almaları, daha kapsayıcı ve demokratik bir yapılanma için gereklidir. Kadınlar, toplumsal cinsiyet rolleri ve ilişkileri nedeniyle farklı sosyal, ekonomik ve siyasi çıkarlara sahip olarak siyasallaşır ve toplumsallaşır. Ancak kadınlar demokratik yönetimlerde bile siyasal karar alma mekanizmalarından tarihsel olarak dışlanmışlardır. Bu nedenle kadınların siyasi katılımı, toplumsal cinsiyet eşitliği açısından son derece önemlidir [@sumbas2015kadinin].
+
+
+
+
+\newpage
+# Kaynakça {#references}
+<div id="refs"></div>
+
